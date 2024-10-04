@@ -1,0 +1,50 @@
+# Hugo configuration file
+title: ywcheong/blog
+
+# import hextra as module
+module:
+  imports:
+  - path: hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Blog
+      pageRef: /blog
+      weight: 1
+    - name: Project
+      pageRef: /project
+      weight: 2
+    - name: GitHub ↗
+      url: "https://git.ywcheong.com"
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: true
+
+  editURL:
+    enable: false
+    base: "https://blog.ywcheong.com"
+
+  theme:
+    default: system
+    displayToggle: true
