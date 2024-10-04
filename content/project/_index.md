@@ -5,7 +5,7 @@ date: '2024-10-04T22:34:34+09:00'
 cascade:
   type: docs
 
-next: infection-network-simulation
+next: easyplotlib
 ---
 
 You can see overviews of my projects at the left sidebar.

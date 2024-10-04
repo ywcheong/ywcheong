@@ -1,7 +1,7 @@
 ---
 title: 'Infection Network Simulation'
 
-prev: .
+prev: easyplotlib
 next: sofia-the-chatbot
 
 draft: true
