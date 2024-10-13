@@ -12,6 +12,7 @@ I am Youngwoon Cheong. Feel free to look around!
 ## Quick Link
 
 {{< cards >}}
-  {{< card link="blog" title="Blog" icon="chat" >}}
-  {{< card link="project" title="Project Showcase" icon="code" >}}
+  {{< card link="blog" title="Blog Posts" icon="chat" >}}
+  {{< card link="project" title="Project Showcase" icon="folder" >}}
+  {{< card link="https://solved.ac/profile/ywcheong" title="Algorithm Solved" icon="code" >}}
 {{< /cards >}}

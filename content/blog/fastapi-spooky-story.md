@@ -8,7 +8,7 @@ FastAPI를 활용한 [새 웹 프로젝트](../../project/easyplotlib)를 개발
 이번 프로젝트에서는 AWS를 사용해 프로덕션을 개발할 생각이었기에, 개발 환경은 AWS EC2로 세팅을 마쳤었다. 
 Python 프로젝트는 여러 번 해 봤지만 FastAPI를 활용하는 경우는 처음이어서 간단한 [데모 코드](https://fastapi.tiangolo.com/ko/#_5)를 가지고 원리를 이해하고 있었다.
 
-![](fastapi-spooky-story-1.png "당시 개발 화면")
+![](/fastapi-spooky-story-1.png "당시 개발 화면")
 
 당시 개발 중이던 환경은 위 화면과 같았는데, Visual Studio Code에 Remote-SSH 익스텐션을 설치해서 원격으로 EC2 Instance에 접속하였었다.
 사진이 작아서 잘 안 보이기는 하지만, 화면을 보면 당시 AWS EC2에 부여된 Public IP가 `172.31.3.163`임을 알 수 있다.
@@ -32,7 +32,7 @@ FastAPI에서는 서버를 실행하기 위해 `fastapi dev my-file.py`와 같�
 여기서 주목할 점은 FastAPI 서버가 `http://127.0.0.1:8000`에 개방되었다는 정보이다.
 EC2 보안그룹 정책을 통해 당시 8000번 포트는 접속을 개방한 상태였다.
 
-![](fastapi-spooky-story-2.png "AWS 보안그룹 설정, 8000번 포트가 모든 IP에 대해 개방되어 있다.")
+![](/fastapi-spooky-story-2.png "AWS 보안그룹 설정, 8000번 포트가 모든 IP에 대해 개방되어 있다.")
 
 따라서 내 생각으로는 Public IP가 `172.31.3.163`이고, 8000번 포트가 개방되었으니 내 브라우저에서 `http://172.31.3.163:8000`으로 접근하면 테스트 서버에 접속할 수 있겠다는 판단이었다.
 
@@ -42,7 +42,7 @@ EC2 보안그룹 정책을 통해 당시 8000번 포트는 접속을 개방한 �
 
 아무리 찾아도 문제가 해결되지 않던 중, 혹시나 하는 생각에 `http://127.0.0.1:8000`로 접속을 시도해 봤더니...
 
-![](fastapi-spooky-story-3.png "아무 설정도 안 했는데 내 컴퓨터에서 원격 PC에 접속이 된다???")
+![](/fastapi-spooky-story-3.png "아무 설정도 안 했는데 내 컴퓨터에서 원격 PC에 접속이 된다???")
 
 여기서부터 뭔가 이상해졌다. 내가 설정한 건 SSH지 VPN이 아니었는데, 왜 localhost에서 EC2 인스턴스랑 연결이 되는 거지?
 이때 별별 생각을 다 하면서 구글링을 했는데, 너무 연관된 주제가 많다 보니 키워드 산정부터 어려움이 있었다. 당시 상황을 종합하면
@@ -96,13 +96,16 @@ Vscode에서 SSH로 접속할 때는 그냥 접속하지 않고 [Remote-SSH](htt
 이 플러그인에는 Port Forwarding이라는 기능이 내장되어 있는데, 원격 서버의 Port와 로컬 머신의 Port를 바인딩해 주는 기능이다.
 사실 기본 SSH에서도 이 기능이 있는데, 가장 큰 차이점은 Remote-SSH는 자동으로 Port를 탐지해 Port forwarding을 수행해 준다.
 
-[Microsoft 개발자가 직접 남긴 구현 코멘트](https://github.com/microsoft/vscode/issues/143958)에 따르면 해당 익스텐션은 두 가지 방법으로 자동으로 포트를 탐지한다.
+SSH를 평소에 엄청나게 자주 쓰기 때문에 이런 기능이 존재한다는 것은 들었던 적이 있었다.
+하지만 지금까지는 이 기능을 굳이 쓸 일이 없었기에 잊고 있었던 데다, 무엇보다도 Vscode가 자동으로 Port forwarding을 할 줄은 몰랐었다.
+
+[Microsoft 개발자가 직접 남긴 구현 코멘트](https://github.com/microsoft/vscode/issues/143958)에 따르면 해당 익스텐션은 설정에 따라 두 가지 방법으로 자동으로 포트를 탐지한다.
 * 현재 실행 중인 프로세스 중, 열린 포트를 가진 프로세스를 탐지
 * 터미널 출력에서 URL + 포트 형식을 가진 출력이 있는지 탐지
 
-내 경우 아마 두 번째에서 탐지되지 않았을까 싶다. 실제로 이 사실을 알고 다시 Vscode를 확인해 보니 아래와 같은 탭을 발견할 수 있었다.
+실제로 이 사실을 알고 다시 Vscode를 확인해 보니 아래와 같은 탭을 발견할 수 있었다.
 
-![](fastapi-spooky-story-4.png "Remote 8000번 포트가 localhost:8000로 Forward되고 있다.")
+![](/fastapi-spooky-story-4.png "Remote 8000번 포트가 localhost:8000로 Forward되고 있다.")
 
 사실, 이 문제는 두 가지 문제가 결합한 문제였다. localhost에서 접속이 되는 것도 문제지만, Public IP를 통해서는 접속할 수 없었던 것을 기억하는가?
 FastAPI dev 서버에서 Public IP를 통해 접속을 허용하려면 사실은 아래와 같은 옵션을 주어야 했다.
