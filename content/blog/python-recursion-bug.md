@@ -1,8 +1,6 @@
 ---
 title: 'sys.setrecursionlimit(10**6)은 만능 해결사가 아니다'
 date: '2024-10-31T20:19:49+09:00'
-
-draft: true
 ---
 
 ## 결론부터 말하자면...
