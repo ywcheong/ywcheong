@@ -12,12 +12,12 @@
 ### Technical Skills
 **Programming Languages:**
 - Python (primary)
-- JavaScript/TypeScript
+- TypeScript (+ JS)
 
-**Tools and Technologies:**
+**Tools Experiences:**
+- Linux
 - Git
-- AWS, Firebase
-- Linux/Bash
+- AWS
 
 ### Contact
 
@@ -27,7 +27,6 @@
 
 | Platform | Link |
 |----------|------|
-| Website  | [ywcheong.com](https://ywcheong.com) |
 | Blog     | [blog.ywcheong.com](https://blog.ywcheong.com) |
 | Solved.ac| [@ywcheong](https://solved.ac/profile/ywcheong) |
 
