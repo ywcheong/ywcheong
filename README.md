@@ -6,18 +6,22 @@
 
 **Education:** 
 - [KAIST CS](https://cs.kaist.ac.kr/), Undergraduate (ongoing)
-  - Q1 2021 - Present
-  - Leave of absence (military service): Q1 2023 - Q2 2024
+  - Mar 2021 - Aug 2026
+  - Leave of absence (military service): Jan 2023 - Jul 2024
+- [KSA](https://ksa.hs.kr), High school
+  - Mar 2018 - Feb 2021
 
 ### Technical Skills
 **Programming Languages:**
 - Python (primary)
-- TypeScript (+ JS)
+- TypeScript, Javascript (secondary)
+- C++, Java (know-to-read)
 
-**Tools Experiences:**
-- Linux
-- Git
-- AWS
+**Tools, Environment, and Service**
+- Tools: Git, RDBMS/NoSQL, Docker (compose)
+- Service: AWS, GCP
+- Environment: Linux
+- etc: LaTeX
 
 ### Contact
 
@@ -29,7 +33,3 @@
 |----------|------|
 | Blog     | [blog.ywcheong.com](https://blog.ywcheong.com) |
 | Solved.ac| [@ywcheong](https://solved.ac/profile/ywcheong) |
-
-### Note
-
-I am currently seeking a frontend designer for collaboration.
