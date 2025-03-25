@@ -11,18 +11,6 @@
 - [KSA](https://ksa.hs.kr), High school
   - Mar 2018 - Feb 2021
 
-### Technical Skills
-**Programming Languages:**
-- Python (primary)
-- TypeScript, Javascript (secondary)
-- C++, Java (know-to-read)
-
-**Tools, Environment, and Service**
-- Tools: Git, RDBMS/NoSQL, Docker (compose)
-- Service: AWS, GCP
-- Environment: Linux
-- etc: LaTeX
-
 ### Contact
 
 **E-mail:** tencise .at. gmail .dot. com
