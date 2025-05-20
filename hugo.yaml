@@ -21,14 +21,11 @@ menu:
     - name: Post
       pageRef: /post
       weight: 1
-    - name: Project
-      pageRef: /project
-      weight: 2
     - name: GitHub ↗
       url: "https://git.ywcheong.com"
-      weight: 3
+      weight: 2
     - name: Search
-      weight: 4
+      weight: 3
       params:
         type: search
 
