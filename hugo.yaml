@@ -1,10 +1,10 @@
 # Hugo configuration file
-title: ywcheong/blog
+title: ywcheong::blog
 
 # import hextra as module
 module:
   imports:
-  - path: hextra
+    - path: hextra
 
 markup:
   # allow raw html
@@ -18,8 +18,8 @@ markup:
 
 menu:
   main:
-    - name: Post
-      pageRef: /post
+    - name: Home
+      pageRef: /
       weight: 1
     - name: GitHub ↗
       url: "https://git.ywcheong.com"
