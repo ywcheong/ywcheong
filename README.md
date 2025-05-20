@@ -1,23 +1,30 @@
-## Youngwoon Cheong
+# Youngwoon Cheong
 
-### Personal Information
+## Personal Information
 
 **Name:** 정영운 (Youngwoon Cheong)
 
 **Education:** 
-- [KAIST CS](https://cs.kaist.ac.kr/), Undergraduate (ongoing)
+- [KAIST](https://cs.kaist.ac.kr/) (Undergraduate: ongoing)
   - Mar 2021 - Aug 2026
   - Leave of absence (military service): Jan 2023 - Jul 2024
-- [KSA](https://ksa.hs.kr), High school
+- [Korea Science Academy of KAIST](https://ksa.hs.kr) (High School)
   - Mar 2018 - Feb 2021
 
-### Contact
+**Interested Field**
+- Backend Engineering
+- Infrastructure
 
-**E-mail:** tencise .at. gmail .dot. com
+## Personal Contact
 
-### Online Profiles
+**E-mail:** `tencise .at. gmail .dot. com`
+**Instagram:** `"@" + ywcheong.getSurname().concat(ywcheong.getGivenName()).toLowercase()`
 
-| Platform | Link |
-|----------|------|
-| Blog     | [blog.ywcheong.com](https://blog.ywcheong.com) |
-| Solved.ac| [@ywcheong](https://solved.ac/profile/ywcheong) |
+*Because I do not want automated crawlers to collect my personal information, I kindly ask you to solve a simple puzzle, even though it may be a bit of a hassle.*
+
+## Other Profiles
+
+| Platform  | Link                                            |
+| --------- | ----------------------------------------------- |
+| Git Blog  | [blog.ywcheong.com](https://blog.ywcheong.com)  |
+| Solved.ac | [@ywcheong](https://solved.ac/profile/ywcheong) |
