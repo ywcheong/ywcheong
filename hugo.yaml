@@ -1,6 +1,10 @@
 # Hugo configuration file
 title: ywcheong::blog
 
+enableRobotsTXT: true
+enableGitInfo: true
+hasCJKLanguage: true
+
 # import hextra as module
 module:
   imports:
@@ -35,13 +39,22 @@ params:
     displayLogo: false
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: true
 
   editURL:
-    enable: false
+    enable: true
     base: "https://blog.ywcheong.com"
 
   theme:
     default: system
     displayToggle: true
+
+defaultContentLanguage: ko
+languages:
+  ko:
+    languageName: 한국어
+    weight: 1
+  en:
+    languageName: English
+    weight: 2
