@@ -1,0 +1,71 @@
+/* Noto Sans KR Regular */
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/notosanskr/v27/Pby6FmXiEBPT4ITbgNA5CgmOelzI.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+AC00-D7A3;
+}
+
+/* Noto Sans KR Bold */
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/notosanskr/v27/Pby6FmXiEBPT4ITbgNA5CgmOelzI.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+AC00-D7A3;
+}
+
+/* JetBrains Mono Regular */
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/jetbrainsmono/v17/1Ptug8zYS_SKggPNyCMIT4ttDfA.woff2') format('woff2');
+    unicode-range: U+0000-00FF;
+}
+
+/* JetBrains Mono Bold */
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://fonts.gstatic.com/s/jetbrainsmono/v17/1Ptug8zYS_SKggPNyCMIT4ttDfA.woff2') format('woff2');
+    unicode-range: U+0000-00FF;
+}
+
+/* Main content: Noto Sans KR */
+.content,
+body,
+html,
+input,
+textarea,
+select,
+button {
+    font-family: 'Noto Sans KR', 'Noto Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+
+/* Headings: Noto Sans KR Bold */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Noto Sans KR', 'Noto Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* Inline code and code blocks: JetBrains Mono */
+.content code,
+pre,
+code,
+kbd,
+samp,
+.hextra-code-block,
+.hextra-jupyter-code-cell {
+    font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', 'Menlo', monospace;
+    font-weight: 400;
+    font-size: 95%;
+}
