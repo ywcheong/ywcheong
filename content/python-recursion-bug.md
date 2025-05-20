@@ -57,7 +57,7 @@ Windows에서는 프로그램이 스택 사이즈를 초과하면 프로세스�
 발생하는 오버헤드 등을 고려할 때 도입하지 않은 것으로 보인다.
 
 ### Linux에서는 일어나지 않는 버그
-![alt text](image.png "Windows에서 작동하지 않는 이 코드는, Linux에서는 0.01초 이내로 실행된다. 사진은 Amazon EC2 Linux 환경.")
+![alt text](/python-recursion-bug-3.png "Windows에서 작동하지 않는 이 코드는, Linux에서는 0.01초 이내로 실행된다. 사진은 Amazon EC2 Linux 환경.")
 
 Linux에서는 이 버그가 나타나지 않는다.
 위의 실행 결과는 `setrecursionlimit`의 값을 21억까지 매우 크게 늘려도 작동했는데, 그 이유는 Linux와 Windows가 기본적으로 프로세스의 스택 크기 제한을 처리하는 방법이 다르기 때문이다.
