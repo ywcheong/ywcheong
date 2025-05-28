@@ -18,9 +18,6 @@
 ## Personal Contact
 
 - **E-mail:** `tencise .at. gmail .dot. com`
-- **Instagram:** `"@" + ywcheong.getSurname().concat(ywcheong.getGivenName()).toLowercase()`
-
-*Because I do not want automated crawlers to collect my personal information, I kindly ask you to solve a simple puzzle, even though it may be a bit of a hassle.*
 
 ## Other Profiles
 
