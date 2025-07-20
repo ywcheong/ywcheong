@@ -17,7 +17,7 @@
 
 ## Personal Contact
 
-- **E-mail:** `tencise .at. gmail .dot. com`
+- **E-mail:** `work .at. ywcheong .dot. com`
 
 ## Other Profiles
 
