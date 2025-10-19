@@ -1,27 +1,24 @@
-# Youngwoon Cheong
+# Youngwoon Cheong (정영운)
 
-## Personal Information
+I am an undergraduate student at KAIST majoring in the School of Computing. My primary focus is on backend engineering, where I aim to build a strong professional foundation. I am also passionate about exploring related fields such as databases, DevOps, and Site Reliability Engineering (SRE) to develop a comprehensive understanding of building and maintaining robust systems.
 
-**Name:** 정영운 (Youngwoon Cheong)
+### Experience
+*   **[Tossbank](https://www.tossbank.com/)**, **Server Developer Intern**
+    *   *September 2025 - February 2026*
 
-**Education:** 
-- [KAIST](https://cs.kaist.ac.kr/) (Undergraduate: ongoing)
-  - Mar 2021 - Aug 2026
-  - Leave of absence (military service): Jan 2023 - Jul 2024
-- [Korea Science Academy of KAIST](https://ksa.hs.kr) (High School)
-  - Mar 2018 - Feb 2021
+### Education
+*   **[KAIST](https://cs.kaist.ac.kr/)**
+    *   B.S. in School of Computing
+    *   *March 2021 - August 2026 (expected)*
+    *   Leave of absence for military service: *January 2023 - July 2024*
+*   **[Korea Science Academy of KAIST](https://ksa.hs.kr/)**
+    *   *March 2018 - February 2021*
 
-**Interested Field**
-- Backend Engineering
-- Infrastructure
+### Languages
+*   **Korean**: Native
+*   **English**: OPIc AL (2024), TOEFL 102 (2021)
 
-## Personal Contact
-
-- **E-mail:** `work .at. ywcheong .dot. com`
-
-## Other Profiles
-
-| Platform  | Link                                            |
-| --------- | ----------------------------------------------- |
-| Git Blog  | [blog.ywcheong.com](https://blog.ywcheong.com)  |
-| Solved.ac | [@ywcheong](https://solved.ac/profile/ywcheong) |
+### Contact & Links
+*   **Email**: `work .at. ywcheong .dot. com`
+*   **Blog**: [blog.ywcheong.com](https://blog.ywcheong.com)
+*   **Solved.ac**: [@ywcheong](https://solved.ac/profile/ywcheong)
