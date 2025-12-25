@@ -14,9 +14,9 @@ I am an undergraduate student at KAIST majoring in the School of Computing. My p
 *   **[Korea Science Academy of KAIST](https://ksa.hs.kr/)**
     *   *March 2018 - February 2021*
 
-### Languages
-*   **Korean**: Native
-*   **English**: OPIc AL (2024), TOEFL 102 (2021)
+### Skills & Languages
+*   **Languages**: Korean (Native), English (OPIc AL, TOEFL 102)
+*   **Certifications**: Engineer Information Processing (정보처리기사)
 
 ### Contact & Links
 *   **Email**: `work .at. ywcheong .dot. com`
